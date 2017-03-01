@@ -28,7 +28,9 @@ def number_of_customers_per_state(customers):
         'NY': 1
     }
     """
-    # Write your code here
+    customers = {“state”: [ {“name”: name, “age”: age}]}
+        for key, value in customers.items():
+             return {key: len(value)} 
     pass
 
 

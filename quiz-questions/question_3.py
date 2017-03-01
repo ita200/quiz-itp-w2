@@ -38,7 +38,18 @@ def eldest_customer_per_state(customers):
         }
     }
     """
-    # Write your code here
+    customers = {}
+    
+    state = {"state_name":state_name, "person":[] }
+    
+    person = {"name":name, 'age':age}
+  
+    state["persons"].append(person)
+    customers.append(state)
+    
+     # customers = {“state”: [ {“name”: name, “age”: age}]}
+      #  for key, value in customers.items():
+       #      return {key: max(value)} 
     pass
 
 
